@@ -14,5 +14,14 @@ int main()
     cout << number++ << endl;
     cout << number << endl;
     cout << ++number << endl;
+    double test = 1.2;
+    cout << 9/5*test+25 << endl;
+    cout << double{9}/5 * test + 25 << endl;
+
+    int unit1 = 0;
+    char c;
+    cout << "Enter the size and unit: \n";
+    cin >> unit1 >> c;
+    cout << unit1 << endl << c << endl;
     return 0;
 }
