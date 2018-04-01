@@ -1,7 +1,10 @@
-#include "../std_lib_facilities.h"
+#include<iostream>
+
+using namespace std;
 
 int main()
 {
-    string s = "Goodbye, cruel world! ";
-    cout << s << '\n';
+    char c = 'n';
+    cout << int{c} << endl;
+    return 0;
 }
