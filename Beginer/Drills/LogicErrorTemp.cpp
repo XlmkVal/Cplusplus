@@ -11,10 +11,10 @@ int main()
     double sum = 0;
     vector<double> temps;
 
-    for(double temp; cin >> temp)
+    for(double temp; cin >> temp;)
     {
-        if temp<temp_min temp_min = temp;
-        if temp>temp_max temp_max = temp;
+        if (temp<temp_min) temp_min = temp;
+        if (temp>temp_max) temp_max = temp;
         sum += temp;
     }
 
