@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello, please enter an expression without a distance: ";
+    cout << "Hello, please enter an expression: ";
     int a =0;
     int b = 0;
     char op;

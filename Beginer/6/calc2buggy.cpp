@@ -147,7 +147,17 @@ double term()
             }
         case '!':
         {
+<<<<<<< HEAD
             for(int i=1; i<=left; ){}
+=======
+            int temp = int(left);
+            int temp2 = 1;
+            for(int i=1; i<=left; i++)
+            {
+                temp2 *= i;
+            }
+            left = temp2;
+>>>>>>> refs/remotes/origin/master
         }
         default: 
             ts.putback(t);     // put t back into the token stream
