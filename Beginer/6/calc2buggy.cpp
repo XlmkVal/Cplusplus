@@ -147,7 +147,7 @@ double term()
             }
         case '!':
         {
-            for(int i=1; i<=left; )
+            for(int i=1; i<=left; ){}
         }
         default: 
             ts.putback(t);     // put t back into the token stream
