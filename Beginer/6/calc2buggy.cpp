@@ -118,6 +118,7 @@ double primary()
         }
     case '8':            // we use '8' to represent a number
         return t.value;  // return the number's value
+    //TODO case q - exiting the program'
     default:
         error("primary expected");
     }
@@ -147,9 +148,6 @@ double term()
             }
         case '!':
         {
-<<<<<<< HEAD
-            for(int i=1; i<=left; ){}
-=======
             int temp = int(left);
             int temp2 = 1;
             for(int i=1; i<=left; i++)
@@ -157,7 +155,6 @@ double term()
                 temp2 *= i;
             }
             left = temp2;
->>>>>>> refs/remotes/origin/master
         }
         default: 
             ts.putback(t);     // put t back into the token stream
@@ -208,10 +205,9 @@ int main()
             if (t.kind == '=')        // ';' for "print now"
                 cout << "=" << val << '\n';
             else
-            {
                 ts.putback(t);
-                val = expression();
-            }
+            val = expression();
+            
         }
         keep_window_open();
     }
