@@ -15,5 +15,6 @@ int main ()
     int n(3);
     C c{};
     cout << c.l << endl;
+    cout << c.p << endl;
     return 0;
 }
