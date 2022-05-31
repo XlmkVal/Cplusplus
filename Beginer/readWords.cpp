@@ -11,9 +11,9 @@ using namespace std;
 int main()
 {
     vector<string> words;
-    for(string input; cin>> input;)
+    for(string input; cin >> input;)
     {
-        words.push_back(words);
+        words.push_back(input);
     }
     sort(words);
     for(int i: words)
